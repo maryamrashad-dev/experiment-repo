@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Jane Doe - Portfolio</title>
+    <title>Maryam Rashad - Portfolio</title>
     <link rel="stylesheet" href="./style.css"/>
     <script src="./script.js"></script>
   </head>
@@ -10,10 +10,10 @@
     <nav>
       <div id="home">
         <div class="profile_name">
-          Jane Doe
+          Maryam Rashad
           <div class="contact_info">
             <img src="resources/envelope.png" alt="https://icons8.com/icon/124377/circled-envelope"/>
-          jdoe@jeemail.com
+          my-email@gmil.com
         </div>
         <div style="clear:both;"></div>
         <div class="contact_info">
@@ -24,7 +24,9 @@
         </div>
         <div class="topdiv">
           <a class="topmenu" href="#about-me">About Me</a>
-          <!-- Add the links for Skills, Projects and Recommendation here -->
+          <a class="topmenu" href="#skills">Skills</a>
+          <a class="topmenu" href="#projects">Projects</a>
+          <a class="topmenu" href="#recommendations">Recommendations</a>
 
         </div>
       </div>    
@@ -33,17 +35,16 @@
     <!-- About Me -->
     <section id="about-me" class="container">
       <div>
-        <img src="https://miro.medium.com/max/1400/1*qdAW1TjCN57h1lbuuzvchg.gif" class="profile_image"/>
+        <img src="resources/profile.jpeg" class="profile_image" width="100px"/>
       </div>
 
       <div>
           <h1>
-            Hi, I'm Jane Doe! <img src="resources/waving-hand.png" width="60px"/>
+            Hi, I'm Maryam! <img src="resources/waving-hand.png" width="60px"/>
           </h1>
           <p>
-            I am a full stack developer with 2 years of experience in both application and presentation layers.
-            I have worked on applications and microservices deployed on IBM Cloud. 
-            I am an avid user of IBM Watson Services and have worked on Watson Assistant, NLU, Sentiment analyzer to name a few.
+            I am a Software Developer. <br/>
+            Interested in Software Development, Machine Learning and Data Science.
           </p>
       </div>
     </section>
@@ -66,8 +67,23 @@
           <p>3 years experience</p>
         </div>  
 
-        <!-- Add more skills here -->
+         <div class="skill">
+          <img src="resources/csharp.svg"/>
+          <h6>C#</h6>
+          <p>3 years experience</p>
+        </div> 
 
+        <div class="skill">
+          <img src="resources/DotNet.svg"/>
+          <h6>.NET</h6>
+          <p>3 years experience</p>
+        </div> 
+
+        <div class="skill">
+          <img src="resources/python.svg"/>
+          <h6>Python</h6>
+          <p>4 years experience</p>
+        </div> 
 
       </div>
     </section>
@@ -81,23 +97,23 @@
 
         <div id="projects-container" class="projects-container">
           <div class="project-card">
-            <h3>Chatbot</h3>
+            <h3>Programs Classifier using GNNs</h3>
             <ul>
-              <li>Developed a secure website integrated with chatbot for an automobile client using HTML, CSS, JavaScript and IBM Watson Assistant</li>
+              <li>Developed machine learning models to identify structurally and semantically similar programs using graph-based representations. Used ProGraML to extract control, data, and call flow graphs, applied Graph2Vec for embeddings, and trained Graph Neural Networks (GNNs), including Graph Convolutional Networks (GCNs), to classify programs. Achieved up to 96% accuracy on benchmark datasets, with applications in code clone detection and compiler optimization.</li>
             </ul>
           </div>
           <hr>
           <div class="project-card">
-            <h3>Sentiment Analyzer</h3>
+            <h3>ERP Software</h3>
             <ul>
-              <li>Developed and deployed a sentiment analyzer for the box reviews section of an eCommerce platform using IBM NLU</li>
+              <li>Developed and maintained full-stack web applications using C#, .NET Core, Blazor WebAssembly, and Entity Framework Core, ensuring scalability and performance.</li>
             </ul>
           </div>
           <hr>
           <div class="project-card">
-            <h3>Fashion Website</h3>
+            <h3>Food Security Analysis</h3>
             <ul>
-              <li>Created a styled multi-page website for a new player in the fashion industry and integrated it with a shopping cart, using stripe for payment gateway</li>
+              <li>Assessed threats to Bahrain's food sustainability using import trends, environmental data, and global indices to inform strategic policy recommendations. Tools Used: Excel, Power BI, Python, Web Scraping, Research Analysis</li>
             </ul>
           </div>
     </div>
@@ -110,27 +126,26 @@
       <div style="clear:both;"></div>
       <div class="all_recommendations" id="all_recommendations">
         <div class="recommendation">
-          <span>&#8220;</span>
-          Jane is a very quick learner and quickly grasps key concepts of Web development. 
-          She got a great attitude & she is an excellent team player. 
-          She has a curious mind and asks the right question. 
-          She takes initiative within a team and has potentials to lead the team.
-          <span>&#8221;</span>
-        </div>
-        <div class="recommendation">
-          <span>&#8220;</span>
-          Working with Jane has been an awesome experience. 
-          She is highly knowledgable and always goes the extra step to make sure everything is right. 
-          For any future projects that need her expertise I would definitely want to work with her again.
-          <span>&#8221;</span>
-        </div>
-        <div class="recommendation">
-          <span>&#8220;</span>
-          I had worked along with Jane during the initial phase of our venture which needed Web development. 
-          She is a committed resource who has in depth knowledge about the domain. 
-          She will be an asset for any organisation! 
-          <span>&#8221;</span>
-        </div>
+  <span>&#8220;</span>
+  Maryam is a versatile developer with strong skills in both front-end and back-end technologies. 
+  She consistently delivers efficient, scalable solutions and is quick to adapt to new tools and challenges. 
+  <span>&#8221;</span>
+</div>
+
+<div class="recommendation">
+  <span>&#8220;</span>
+  I had the pleasure of collaborating with Maryam on a data analytics project. 
+  Her ability to turn complex datasets into clear, actionable insights using Python and Power BI was outstanding. 
+  <span>&#8221;</span>
+</div>
+
+<div class="recommendation">
+  <span>&#8220;</span>
+  Maryam stands out for her problem-solving mindset and attention to detail. 
+  From optimizing system performance to developing machine learning models, she brings creativity, precision, and reliability to every project. 
+  <span>&#8221;</span>
+</div>
+
       </div>
     </section>
 
@@ -150,13 +165,15 @@
 
     <div class="iconbutton">
       <a href="#home">
-        <!--Add the code here for the logo to appear and the icon to be actionable-->
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="white" width="63px">
+  <path stroke-linecap="round" stroke-linejoin="round" d="M15 11.25l-3-3m0 0l-3 3m3-3v7.5M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+</svg>
       </a>
     </div>
 
     <div class="popup" id="popup" class="flex_center">
       <img src="resources/checkmark--outline.svg"/>
-      <h3><!-- Add appropriate text here--></h3>
+      <h3>Thanks for leaving a recommendation</h3>
       <button onclick="showPopup(false)">Ok</button>
     </div>
   </body>
